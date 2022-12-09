@@ -2,7 +2,7 @@
 
 #include <unistd.h>
 
-/** 
+/**
  * main - Entry
  * Return: Always 1
  */
