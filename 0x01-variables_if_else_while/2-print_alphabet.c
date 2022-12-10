@@ -8,14 +8,11 @@
 int main(void)
 {
 		char alphabet
-		putchar("Lowercase alphabets:\n");
-		/*loop statement, that will check the condition 
-		 * and print the alphabets from 'a' to 'z' */
-		while(alphabet<='z')
+		
+		for(int x = 'A'; x <= 'z'; x++)
 		{
-		putchar("%c ",alphabet);
-		/* increasing the value by 1 */
-												alphabet++;
+			x = tolower(x);
+			putchar(x);
 		}
-												return 0;
+		return 0;
 }
