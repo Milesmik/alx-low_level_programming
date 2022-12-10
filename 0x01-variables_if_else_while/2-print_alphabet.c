@@ -7,8 +7,6 @@
  */
 int main(void)
 {
-		char alphabet
-		
 		for(int x = 'A'; x <= 'z'; x++)
 		{
 			x = tolower(x);
