@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int num
+	int num;
 	while (num = '0'; num <= '9')
 	{
 		printf("%d \n", num);
