@@ -17,9 +17,6 @@ int main(void)
 	{
 	if (n1 == 10)
 	{
-		n1++;
-		break;
-
 		putchar(n1);
 		putchar(n2);
 		putchar(n3);
