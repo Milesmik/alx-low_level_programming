@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - Entry point
+ * Description: prints all possible combinations of single-digit numbers.
+ * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	int n1 = '1';
+	int n2 = ',';
+
+	while (n1 <= '9')
+	{
+		putchar(n1);
+		putchar(n2);
+		n1++;
+	}
+	putchar('\n');
+
+	return (0);
+}
