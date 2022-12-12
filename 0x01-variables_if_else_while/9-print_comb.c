@@ -9,18 +9,18 @@
 
 int main(void)
 {
-	int n1 = '0';
-	int n2 = ',';
-	int n3 = ' ';
+	int num;
 
-	while (n1 <= '9')
+	for (num = 0; num <= 9; num++)
 	{
-		putchar(n1);
-		putchar(n2);
-		putchar(n3);
-		n1++;
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
 
-		putchar('\n');
+		putchar(',');
+		putchar(' ');
 	}
+	putchar('\n');
+
 	return (0);
 }
