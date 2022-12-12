@@ -15,7 +15,7 @@ int main(void)
 
 	while (n1 <= '9')
 	{
-	if (n1 == 9)
+	if (n1 == '9')
 	{
 		break;
 	}
