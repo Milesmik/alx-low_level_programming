@@ -9,11 +9,11 @@
 
 int main(void)
 {
-	int n1 = 0;
+	int n1 = '0';
 	int n2 = ',';
 	int n3 = ' ';
 
-	while (n1 < 12)
+	while (n1 <= 10)
 	{
 	if (n1 == 10)
 	{
