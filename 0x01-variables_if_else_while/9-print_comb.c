@@ -19,8 +19,8 @@ int main(void)
 		putchar(n2);
 		putchar(n3);
 		n1++;
-	
-	if (n1 == '9')
+
+	if (n1 == 9)
 	{
 		break;
 	}
