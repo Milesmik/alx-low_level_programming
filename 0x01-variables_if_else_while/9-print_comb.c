@@ -13,9 +13,7 @@ int main(void)
 	int n2 = ',';
 	int n3 = ' ';
 
-	while (n1 <= 10)
-	{
-	if (n1 == 10)
+	while (n1 <= '9')
 	{
 		putchar(n1);
 		putchar(n2);
@@ -23,7 +21,6 @@ int main(void)
 		n1++;
 
 		putchar('\n');
-	}
 	}
 	return (0);
 }
