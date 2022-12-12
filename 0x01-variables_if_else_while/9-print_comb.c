@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int n1 = '0';
+	int n1 = 0;
 	int n2 = ',';
 	int n3 = ' ';
 
@@ -17,14 +17,16 @@ int main(void)
 	{
 	if (n1 == 10)
 	{
+		n1++;
 		break;
-	}
+
 		putchar(n1);
 		putchar(n2);
 		putchar(n3);
 		n1++;
-	}
-	putchar('\n');
 
+		putchar('\n');
+	}
+	}
 	return (0);
 }
