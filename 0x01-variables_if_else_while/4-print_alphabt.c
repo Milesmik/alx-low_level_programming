@@ -9,7 +9,8 @@
 int main(void)
 {
 	char mike;
-	for (mike = 'a'; mike <= 'z'; mike ++; mike != 'q'; mike != 'e')
+	for (mike = 'a'; mike <= 'z'; mike++; mike != 'q'; mike != 'e')
+
 		{
 		putchar(mike);
 		}
