@@ -7,15 +7,17 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	char mike;
-	for (mike = 'a'; mike <= 'z'; mike++; mike != 'q'; mike != 'e')
 
+{
+	char mike = 'a';
+
+	while (mike <= 'z')
+	{
+		if ((mike != 'q') && (mike != 'e'))
 		{
 		putchar(mike);
 		}
-		{
 		putchar('\n');
-		}
+
 	return (0);
 }
