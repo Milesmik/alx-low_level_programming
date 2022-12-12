@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int n1 = '1';
+	int n1 = '0';
 	int n2 = ',';
 	int n3 = ' ';
 
