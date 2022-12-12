@@ -13,9 +13,9 @@ int main(void)
 	int n2 = ',';
 	int n3 = ' ';
 
-	while (n1 <= '9')
+	while (n1 < 12)
 	{
-	if (n1 <= '9')
+	if (n1 == 10)
 	{
 		break;
 	}
