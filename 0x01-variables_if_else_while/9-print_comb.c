@@ -11,11 +11,13 @@ int main(void)
 {
 	int n1 = '1';
 	int n2 = ',';
+	int n3 = ' ';
 
 	while (n1 <= '9')
 	{
 		putchar(n1);
 		putchar(n2);
+		putchar(n3);
 		n1++;
 	}
 	putchar('\n');
