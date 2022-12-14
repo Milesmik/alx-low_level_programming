@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <unistd.h>
 
-#include <main.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -8,13 +8,7 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
+int _putchar(char c)
 {
-	int n = _putchar;
-
-	putchar(n);
-
-	putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
