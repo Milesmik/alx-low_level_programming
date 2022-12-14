@@ -1,14 +1,14 @@
-#include <unistd.h>
-
 #include "main.h"
 
 /**
- * main - Entry point
- * Description: Write a program that prints _putchar, followed by a new line.
- * Return: Always 0 (success)
+ * main - print _putchar
+ *
+ * Return: 0 (Success)
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1));
+	_putchar('_');
+
+	return (0);
 }
