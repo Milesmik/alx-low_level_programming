@@ -2,11 +2,11 @@
 
 /**
  * main - Entry point
- * Deccription: function prints alphabetd in lowercasee.
+ * Deccription: function prints alphabets lowercasee.
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char x;
 	for (x = 'a'; x <= 'z'; x++)
