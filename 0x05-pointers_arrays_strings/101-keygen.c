@@ -8,7 +8,6 @@
  * Return: Always 0 (success)
  */
 
-
 int main(void)
 {
 	int r = 0, c = 0;
