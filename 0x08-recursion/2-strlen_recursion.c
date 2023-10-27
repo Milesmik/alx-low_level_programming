@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * strlen_recursion - returns the lenght of a string
+ * _strlen_recursion - returns the lenght of a string
  * @s: string
  * return: no return
  */
 
-void strlen_recursion(char *s)
+void _strlen_recursion(char *s)
 {
-	if (*s != '\0')
-	{
-		strlen_recursion(s + 1);
-		_putchar(*s);
-	}
+	if (*s == '\0')
+		return (0);
+	else
+		return (1 + _strlen_recursion(s + 1));
 }
